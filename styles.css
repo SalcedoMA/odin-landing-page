@@ -22,7 +22,7 @@ body {
 .header {
     display: flex;
     font-size: 24px;
-    font-weight: 700;
+    /* font-weight: 700; */
     padding: 8px;
     align-items: center;
     justify-content: space-between;
@@ -38,10 +38,10 @@ body {
 
 .intro {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 70%;
-    gap: 30px;
+    gap: 20px;
     padding: 100px 0;
 }
 
@@ -91,3 +91,41 @@ a, a:active {
     margin: 10px 0;
     font-size: 15px;
 }
+
+/* INFO SECTION */
+
+.info {
+    flex: 1;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.info-container {
+    width: 70%;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    flex-direction: column;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    gap: 5px;
+}
+
+.fiat-image {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #1f372b;
+    border-radius: 10px;
+
+}
+
