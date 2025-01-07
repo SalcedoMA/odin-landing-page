@@ -129,3 +129,23 @@ a, a:active {
 
 }
 
+/* QUOTE SECTION */
+
+.quote {
+    background-color: #1f372b;
+    flex: 1;
+}
+
+/* SIGN UP SECTION */
+
+.signup {
+    background-color: #339061;
+    /* flex: 1 0 auto; */
+    flex: 1;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+}
