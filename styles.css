@@ -124,6 +124,12 @@ a, a:active {
     gap: 10px;
 }
 
+.fiat-info {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(26, 25, 25);
+}
+
 .fiat-image {
     height: 250px;
     width: 250px;
