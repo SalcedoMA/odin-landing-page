@@ -99,7 +99,7 @@ a, a:active {
     display: flex;
     /* text-align: center; */
     justify-content: center;
-    background-color: rgb(216, 216, 216);
+    /* background-color: rgb(216, 216, 216); */
 }
 
 .info-container {
@@ -146,9 +146,10 @@ a, a:active {
 /* QUOTE SECTION */
 
 .quote {
-    background-color: #1f372b;
+    background-color: #E5E7EB;
     flex: 1;
 }
+
 
 /* SIGN UP SECTION */
 
