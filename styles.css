@@ -173,11 +173,42 @@ a, a:active {
 
 
 /* SIGN UP SECTION */
-
 .signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 130px;
+    width: 55%;
+    height: 40%;
     background-color: #339061;
-    /* flex: 1 0 auto; */
-    flex: 1;
+    border-radius: 8px;
+    color: white;
+}
+
+.signup-container button{
+    background-color: #229e4b;
+    color: #F9FAF8;
+    padding: 4px 22px;
+    border-radius: 7px;
+    border: none;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.action-title {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.action-text {
+    font-size: 20px;
+    font-weight: 300;
 }
 
 /* FOOTER */
