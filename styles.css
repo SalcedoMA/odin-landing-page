@@ -30,10 +30,9 @@ body {
 }
 
 .header-img {
-    max-height: 50px;
-    max-width: 250px;
+    max-height: 80px;
+    max-width: 275px;
     /* background-color: #86bc50; */
-    border-radius: 2px;
 }
 
 .intro {
@@ -41,7 +40,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    gap: 20px;
+    gap: 25px;
     padding: 100px 0;
 }
 
@@ -55,9 +54,9 @@ body {
 
 .main-image {
     flex: 1;
-    max-height: 250px;
+    max-height: 270px;
     height: auto;
-    object-fit:contain;
+    object-fit:cover;
     border-radius: 5px;
 }
 
@@ -67,14 +66,15 @@ body {
 }
 
 .page-description {
-    font-size: 18px;
+    font-size: 21px;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 8px;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 a, a:active {
@@ -85,11 +85,12 @@ a, a:active {
 .intro-text button {
     background-color: #229e4b;
     color: #F9FAF8;
-    padding: 4px 22px;
+    padding: 10px 35px;
     border-radius: 7px;
     border: none;
-    margin: 10px 0;
-    font-size: 15px;
+    margin: 13px 0;
+    font-size: 17px;
+    font-weight:600;
 }
 
 /* INFO SECTION */
