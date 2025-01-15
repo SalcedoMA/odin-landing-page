@@ -221,5 +221,7 @@ a, a:active {
 /* FOOTER */
 
 footer {
-    background-color: black;
+    background-color: #1f372b;
+    color: #ffffff;
+
 }
