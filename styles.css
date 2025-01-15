@@ -222,6 +222,8 @@ a, a:active {
 
 footer {
     background-color: #1f372b;
-    color: #ffffff;
-
+    color: #ececec;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px;
 }
